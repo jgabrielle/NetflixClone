@@ -16,7 +16,10 @@ body{
 }
 
 header .container{
-    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
 
 }
 
@@ -36,5 +39,5 @@ header nav a {
 
 header nav a:hover{
     color: #FFF;
-    
+
 }
